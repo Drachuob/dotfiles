@@ -16,7 +16,7 @@ done
 cp vim/.vimrc $HOME
 
 # Install some document templates
-cp templates/presentation.md $HOME/Templates/
+cp templates/* $HOME/Templates/
 
 # Git aliases
 git config --global alias.co checkout
