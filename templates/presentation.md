@@ -33,4 +33,8 @@ Some other text.
 
 # Images
 
-![A little cat](cat.jpeg)
+![An image](image.jpeg)
+
+# Math
+
+$$ \sum_{a,b} + x y \infty $$
