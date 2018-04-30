@@ -3,6 +3,8 @@
 ## PREREQUIS
 
 - vim
+- pandoc
+- mupdf
 
 ## INSTALLATION
 
