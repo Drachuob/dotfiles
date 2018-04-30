@@ -36,4 +36,4 @@ map <PageUp> :tabprevious<CR>
 
 " Compilation de fichier markdown
 autocmd FileType markdown map <F9> :! pandoc -t beamer -o presentation.pdf % ; mupdf presentation.pdf<CR>
-autocmd FileType markdown map <F10> :! pandoc -o presentation.pdf % ; mupdf presentation.pdf<CR>
+autocmd FileType markdown map <F10> :! pandoc -o document.pdf % ; mupdf document.pdf<CR>
