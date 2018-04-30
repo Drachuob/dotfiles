@@ -4,7 +4,9 @@
 
 - vim
 - pandoc
+- texlive
 - mupdf
+- git
 
 ## INSTALLATION
 
