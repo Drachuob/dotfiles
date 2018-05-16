@@ -13,10 +13,11 @@ for dependencie in ${dependencies[@]}; do
 done
 
 # Install vim configuration file
-cp vim/.vimrc $HOME
+cp vim/.vimrc $HOME -rf
+cp vim/.vim $HOME -rf
 
 # Install some document templates
-cp templates/* $HOME/Templates/
+cp templates/* $HOME/Templates/ -rf
 
 # Git aliases
 git config --global alias.co checkout

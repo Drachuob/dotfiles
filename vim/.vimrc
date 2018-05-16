@@ -12,7 +12,7 @@ set smartcase
 
 " Coloration syntaxique.
 syntax on
-colorscheme desert
+colorscheme monokai
 set background=dark
 
 " Aides
@@ -37,3 +37,5 @@ map <PageUp> :tabprevious<CR>
 " Compilation de fichier markdown
 autocmd FileType markdown map <F9> :! pandoc -t beamer -o presentation.pdf % ; mupdf presentation.pdf<CR>
 autocmd FileType markdown map <F10> :! pandoc -o document.pdf % ; mupdf document.pdf<CR>
+autocmd FileType markdown set wrap
+autocmd FileType markdown set linebreak
