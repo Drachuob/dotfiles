@@ -27,6 +27,7 @@ set softtabstop=4
 set expandtab
 
 " Compléter avec <Tab> en mode commande
+set path+=**
 set wildmenu
 set wildmode=longest,full
 
